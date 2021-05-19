@@ -2220,6 +2220,17 @@ input, select, textarea {
 
 /* Icon */
 
+	#iconLink{
+		text-decoration: none;
+	}
+
+	a:link {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+
 	.icon {
 		text-decoration: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -2317,6 +2328,8 @@ input, select, textarea {
 		.icon.style6{
 			color: #C1E1C1;
 		}
+
+		
 
 		@media screen and (max-width: 1680px) {
 
